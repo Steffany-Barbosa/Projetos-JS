@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font do relógio, e a cor de fundo*/
+body {
+  background-color: #333;
+  font-family: Helvetica, sans-serif;
+}
+
+/*Conteúdo do relógio "externo"*/
+.container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*Elementos interno do relógio, centalizando, bordas*/
+.clock {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.clock span {
+  margin-right: 0.5rem;
+}

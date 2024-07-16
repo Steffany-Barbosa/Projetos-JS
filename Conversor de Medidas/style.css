@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralizando tudo */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/*Estilização, com bordas arredondadas e sombra*/
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+}
+
+/* Centralizando e estilizando a font*/
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Espaçamento dos inputs*/
+.input-group,
+.output-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/*De e Para*/
+.input-group label,
+.output-group {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/*Cinza claro,sem borda, font, e altura*/
+select,
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: #eee;
+}
+
+/*Muda o cursor do mouse, cor, faz transição suave*/
+button {
+  background-color: #4caf50;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+/*Validando a transição*/
+button:hover {
+  opacity: 1;
+}
+
+/*Margin do resultado*/
+.output-group {
+  margin-top: 18px;
+}
+
+#message {
+  font-size: 14px;
+  color: #4caf50;
+  margin-top: 10px;
+  text-align: center;
+}
